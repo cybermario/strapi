@@ -56,6 +56,44 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 - [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
 - [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
 
+## Commands
+Available commands in your project:
+
+Start Strapi in watch mode. (Changes in Strapi project files will trigger a server restart)
+```
+npm run develop
+```
+
+Start Strapi without watch mode.
+```
+npm run start
+```
+
+Build Strapi admin panel.
+```
+npm run build
+```
+
+Deploy Strapi project.
+```
+npm run deploy
+```
+
+Seed your database with sample data.
+```
+npm run seed:example
+```
+
+Display all available commands.
+```
+npm run strapi
+```
+
+To get started run
+```
+npm run develop
+```
+
 ---
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
